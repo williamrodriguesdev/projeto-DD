@@ -12,8 +12,8 @@ const Acordeon = () => {
         <>
             <div className="glossario">
             <div className="titulo-glossario">
-                    <h1>Glossário</h1>
-                                 <img onClick={toggleContent} id="btn-glossario" src="./src/components/Introducao/acordeon/seta-abaixo.png" alt="seta" />
+                    <h1>Glossário</h1> 
+                    <img src="./src/components/Introducao/acordeon/seta-abaixo.png" onClick={toggleContent} id="btn-glossario" />
                 </div>
             <div className={`conteudo-glossario ${isOpen ? '' : 'esconder'}`}>
                 <ul>
