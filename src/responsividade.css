@@ -1,4 +1,10 @@
 @media (max-width: 768px ) {
+
+  header.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
    nav.nav {
     display: none;
    }
@@ -17,6 +23,14 @@
     color: #f9ffff;
 
   }
+  div.container-classe {
+    padding: 40px 10px;
+    margin-top: 40px;
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+ 
   p.info-card {
     text-align: center;
     margin-top: 5px;
@@ -30,7 +44,10 @@
     float: none;
     margin-top: 20px;
     border-radius: 10px;
-    
+  
+  }
+  .guerreiro {
+    background-position: top;
   }
 
 

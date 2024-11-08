@@ -9,6 +9,7 @@
     background-color: #2a3033;
     border-radius: 20px;
     color: #fff;
+    text-align: center;
     
 }
 
@@ -188,6 +189,7 @@ div.container-classe {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 40px;
   color: #fff;
