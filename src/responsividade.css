@@ -10,8 +10,8 @@
    }
    h1.titulo-hero {
     color: #682e34;
-    font-size: 80px ;
-    text-shadow: 4px 4px #87a352;
+    font-size: 50px ;
+    text-shadow: 2px 2px #87a352;
 
   }
   section.container {
@@ -22,6 +22,18 @@
     gap: 0px;
     color: #f9ffff;
 
+  }
+  .btn-hero {
+    font-size: 23px;
+    color: #fff;
+    padding: 10px;
+    background-color: #682e34;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  .btn-hero:hover {
+    background-color: #844047;
+    
   }
   div.container-classe {
     padding: 40px 10px;
